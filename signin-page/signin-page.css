@@ -7,12 +7,48 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-.login-container {
+
+:root {
+    --secoundary: #b3b3b4;
+    --secoundary-black: #272727;
+    --primary: #ff3e6c;
+    --gray-text: #535665;
+    --success: green;
+    --warning: #f9a61a;
+    --danger: #f34648;
+    --success-light: rgb(156, 216, 156);
+    --warning-light: #f8e0b7;
+    --danger-light: #f7b2b3;
+    --secoundary-gray: #4e4f53;
+}
+
+.nav-icons li a {
+    text-decoration: none;
+    color: var(--secoundary-gray);
+}
+
+.nav-icons {
+    margin-left: auto;
+}
+
+.nav-container {
+    width: 100%;
+}
+
+.nav-navigators {
+    display: none;
+}
+
+.nav-search {
+    display: none;
+}
+
+.signin-container {
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
-    margin: 3rem auto;
-    padding: 2.5rem 3.5rem;
+    margin: 2rem auto;
+    padding: 2.5rem 4rem;
     align-items: center;
     width: fit-content;
     border: 1px solid var(--secoundary);
@@ -25,14 +61,25 @@ body {
     width: fit-content;
 }
 
+.input-field {
+    width: 16rem;
+}
+
+.ecommerce-sub-heading {
+    font-size: 1.5rem;
+    margin: 1rem;
+    margin-top: 0;
+}
+
 .primary-button {
     margin: 1rem;
 }
 
-.login-tag-line {
+.signin-tag-line {
     font-size: 1rem;
     font-weight: 600;
 }
+
 .nav-github-holder a{
     display:flex;
     flex-direction: row;
@@ -43,6 +90,7 @@ body {
         text-decoration: none;
         text-align: center;
     }
+
 
 
     /* footer */
@@ -127,4 +175,3 @@ body {
         padding-left:2rem;
     }
 }
-    

@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,22 +8,21 @@
     <link rel="icon" href="images/foot-logo.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://codesup-component-library.netlify.app/all_components_css.css">
-    <link rel="stylesheet" href="login-page.css">
+    <link rel="stylesheet" href="signin-page.css">
 </head>
 <body>
 
+      <!-- navigation -->
 
-    <!-- navigation -->
-
-    <nav class="nav-container">
+      <nav class="nav-container">
         <div class="nav-logo-and-title">
             <img class="nav-logo" src="/images/ju-logo.png" alt=""></img>
-            <div class="nav-title"> <a href="/landing-page.html">  JobsUp </a></div>
+            <div class="nav-title"> <a href="/index.html">  JobsUp </a></div>
         </div>
     
         <div class="nav-navigators">
-            <a class="nav-navigator-item" href="#">Jobs</a>
-            <a class="nav-navigator-item" href="#">Internships</a>
+            <a class="nav-navigator-item" href="/index.html">Jobs</a>
+            <a class="nav-navigator-item" href="/index.html">Internships</a>
         </div>
         <button class="nav-github-holder">  
             <a  href="/login-page/login-page.html">
@@ -37,10 +34,24 @@
       </nav>
 
       <!-- navigation -->
+  
 
-    <!-- main cotent -->
-    <main class="login-container">
-        <h1 class="ecommerce-sub-heading"> Login</h1>
+      <!-- main content -->
+
+    <main class="signin-container">
+        <h1 class="ecommerce-sub-heading"> Signin</h1>
+        <form class="input-form">
+            <input type="number" class="input-field" placeholder=" ">
+            <label for="" class="input-label">
+                    Phone number</label>
+        </form>
+
+        <form class="input-form">
+            <input type="text" class="input-field" placeholder=" ">
+            <label for="" class="input-label">
+                    Email</label>
+        </form>
+
         <form class="input-form">
             <input type="text" class="input-field" placeholder=" ">
             <label for="" class="input-label">
@@ -51,12 +62,17 @@
             <input type="password" class="input-field" placeholder=" ">
             <label for="" class="input-label">password</label>
         </form>
-        <button class="button-container primary-button">Login</button>
-        <div class="login-tag-line">New to JobsUp? <a href="/signin-page/signin-page.html" class="highlight">Signin</a></div>
-    </main>
-   <!-- main content -->
 
-   <!-- footer -->
+        <form class="input-form">
+            <input type="password" class="input-field" placeholder=" ">
+            <label for="" class="input-label">Conform password</label>
+        </form>
+        <button class="button-container primary-button">Signin</button>
+        <div class="signin-tag-line">Already have an account? <a href="/login-page/login-page.html" class="highlight">login</a></div>
+    </main>
+    <!-- main content -->
+    
+    <!-- footer -->
 <footer class="foot">
     <div class="footer-catogories">
         <div class="footer-sideheading">Opportunities</div>
