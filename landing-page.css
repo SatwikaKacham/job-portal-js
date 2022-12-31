@@ -263,10 +263,18 @@ background-color: white;
     .learning-all-card-container{
         flex-wrap: wrap; 
         gap:2rem;
+        justify-content: center;
+        align-items: center;
     }
     /* .all-job-card-container{
         flex-wrap: wrap; 
     } */
+
+    .browse-jobs-all-card-container{
+        justify-content: center;
+        align-items: center;
+    }
+
 
     .swiper-slide{
         width:12rem;
