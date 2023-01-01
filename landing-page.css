@@ -242,6 +242,16 @@ background-color: white;
     align-self: center;
 }
 
+.learning-all-card-container{
+ 
+    justify-content: center;
+    align-items: center;
+}
+
+.browse-jobs-all-card-container{
+    justify-content: center;
+    align-items: center;
+}
 @media only screen and (max-width: 1000px) {
     .landing-page-container {
         flex-direction: column;
